@@ -24,7 +24,7 @@ Consult the [MDN `canvas` website](https://developer.mozilla.org/en-US/docs/Web/
 Your functions’ drawing commands should be _parameterized by a separate model object_. That is, your functions should accept an object parameter whose properties affect how something gets drawn. For example, if you decide to draw a cartoon character, you can supply an object with a property that states how open or closed its eyes are. Or, you might draw a box with a hinged lid, and its object might state how open, in degrees, the lid should be.
 
 ### Draw Around the Origin, Transform to Test
-One set of characteristics that you _shouldn’t_ parameterize is whole-object movement, rotation, or scal- ing. These can be done independently by using the `translate`, `scale`, and `rotate` functions, as seen in class.
+One set of characteristics that you _shouldn’t_ parameterize is whole-object movement, rotation, or scaling. These can be done independently by using the `translate`, `scale`, and `rotate` functions, as seen in class.
 
 Also as mentioned in class, center your drawing code around the origin. You can invoke `translate` before calling your sprite function to draw it at the desired location. Similarly, `scale` and `rotate` will resize and turn your entire sprite, respectively. You may play with these in your demonstration pages (described next).
 
