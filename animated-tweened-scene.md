@@ -10,7 +10,7 @@ Read [Robert Penner’s book chapter on motion, tweening, and easing](http://rob
 Like the previous assignment, please send your repository’s URL to Ed Seim. Also like the previous assignment, automated feedback only covers code presentation and formatting.
 
 ## For Submission
-Modify the starter _scene.json_ so that it features a 2D animated scene that is written and directed (and implemented!) by _you_ and starring the “sprites” (actually parameterized drawing functions) from the preceding assignment. Ideally, your scene will work as a very brief animated short, with a quick and engaging little store and characters.
+Modify the starter _scene.json_ so that it features a 2D animated scene that is written and directed (and implemented!) by _you_ and starring the “sprites” (actually parameterized drawing functions) from the preceding assignment. Ideally, your scene will work as a very brief animated short, with a quick and engaging little story and characters.
 
 To support your new and improved animated scene, enhance the _keyframe-tweener.js_ animation module in the following ways. Of course, you should demonstrate these enhancements by using them in your own animated short (a.k.a. “eating your own dog food”).
 
