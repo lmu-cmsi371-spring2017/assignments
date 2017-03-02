@@ -31,10 +31,22 @@ The reason for the test suite’s importance is the reality that the aforementio
 
 ## Apply the Matrix
 Armed with your newly-minted matrix library, enhance your 3D framework from Assignment 0407a in the following ways:
-- Give your 3D objects an _instance transformation_: a composition of rotate, scale, and translate and extend your scene drawing code to apply those transforms. Yes, you will need to touch the vertex shader.
+- Give your 3D objects an _instance transformation_: A composition of rotate, scale, and translate and extend your scene drawing code to apply those transforms. Yes, you will need to touch the vertex shader.
 - You might also need something similar to the 2D `canvas`’s _save_ and _restore_ functions.
+- Implement _composite_ or _group_ objects: A natural consequence of having an instance transformation is the ability to _composite_ or _group_ objects: that is, allow your 3D objects to have children, each of which is also a 3D object and _whose own instance transformation builds on the parent’s_. Your implementation should allow for arbitrary depth, and of course the drawing code should be able to handle this without a problem. Yes, you are implementing a tree. And now you know why the data structures course is a prerequisite to this one.
 
 The key idea here is to have, after this portion is done, a complete “construction set” of sorts for creating, composing, and now transforming your scene objects in a manner that is limited solely by your imagination.
 
 ## Project the Matrix
 The second major capability afforded by your matrix library will now be the ability to break out of that 2×2×2 cube thanks to the availability of projection matrices. Do take advantage of them now, in your main scene drawing code.
+
+## Use the Matrix
+Once you reach this point, you now have all of the pieces needed to create a _complete static 3D scene_ from your 3D object and matrix framework. Use instance transformations to position, rotate, and resize the objects in your scene. Use the composite/group ability to build more complex objects that transform as a unit.
+
+### Extra Credit (+10)
+Separate your 3D scene from the code by allowing it to be loaded from a JSON URL. Find a way to express and process the scene such that one or more of these capabilities is present:
+
+- Objects at different levels of abstraction (3D object, polygon mesh, mesh maker) are supported
+  * Mesh maker functions can be called in order to create an object programmatically
+- Properties that define a current instance transformation are available
+- Environment settings such as a viewing volume and projection type can be specified
