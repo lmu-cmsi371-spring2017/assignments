@@ -27,7 +27,7 @@ Your class will need a constructor function, at the very least. You may discover
 Like the 2D sprites from earlier this semester, note that your 3D objects will have a local origin. When rotation and scaling are implemented later, these operations will take place in relation to this origin. This idea of a local origin pervades all of the code that you are writing for this assignment, so don’t forget that.
 
 ### Modify the Drawing Code Accordingly
-Implement a new version of the scene drawing code that works with your 3D shape objects. Remember to take into account the preprocessing that is needed before they can be sent to WebGL.
+Implement a new version of the scene drawing code that works with your 3D objects. Remember to take into account the preprocessing that is needed before they can be sent to WebGL.
 
 _Protip:_ As mentioned earlier, keep an eye out for activities that would work well as prototype functions. Candidates for such conversion can be found both in the sample 3D drawing code and in the current _shapes.js_ utility object (*cough* conversion to WebGL-ready array buffers *cough*).
 
@@ -37,10 +37,14 @@ Design and implement a JavaScript class for representing a _polygon mesh_. As co
 As with the 3D object, you will likely need a constructor function at the very least. You will also want to implement one or more functions that then convert this polygon mesh into the lower-level 3D object. This allows the same polygon mesh to be displayed as solid vs. wireframe, or both, for example.
 
 ### Define a “Mesh Maker” Library
+> With extra credit opportunity—see below!
+
 As a top-level layer for your 3D framework, build a library of “mesh maker” functions: i.e., functions that create polygon mesh instances of a certain kind. Once more, design choices are flexible—for instance, you may use the JavaScript prototype mechanism to create “subclasses.” Alternatively, you may prefer to take a factory approach (i.e., similar to what the sample code currently does in _shapes.js_). Either way, the specifications for this library are:
 
 - A function that creates a _sphere_ polygon mesh...because this is such a satisfying, iconic polyhedron to code up from first principles. The Angel textbook has an example but it isn’t too hard to come up with one on your own, either.
 - At least two (2) more mesh-building functions, based on what your envisioned scene will need. Feel free to implement simpler building blocks then use the composition/grouping functionality to build more sophisticated objects.
+- *Extra credit (+10):* Implement an _extrude_ function that creates a polygon mesh by extruding a given polygon.
+- *Extra credit (+10):* Implement a _lathe_ or _revolve_ function that creates a polygon mesh by rotating a given polygon about the _y_-axis.
 
 When building your mesh’s triangles, remember to adhere to the convention that the triangle’s vertices should be listed in _counterclockwise_ order when viewed from their “outside.” This will affect lighting when that gets implemented later on.
 
@@ -50,14 +54,16 @@ Note that we are now back to writing code that can be feasibly unit-tested. Thus
 ## Summary of Deliverables
 
 - A 3D object class
+  * Constructor function
   * Vertices must be relative to a local origin
   * Unit test suite
+- A drawing pipeline that is tailored to your 3D object class
 - A polygon mesh class
+  * Constructor function
   * Function(s) that “convert” a polygon mesh into the lower-level 3D object
   * Unit test suite
-- A “shape maker” library
+- A “mesh maker” library
   * A function that creates a sphere
-  * Two additional shape-creating functions
-  * _Extra credit:_ Functions that create shapes based on _extrusion_ and/or _lathing/rotating_
+  * Two additional mesh-creating functions
+  * _Extra credit:_ Functions that create polygon meshes based on _extrusion_ and/or _lathing/revolving_
   * Unit test suite
-- A drawing pipeline that is tailored to your shape class
