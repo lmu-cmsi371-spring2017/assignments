@@ -31,9 +31,6 @@ Implement a new version of the scene drawing code that works with your 3D shape 
 
 _Protip:_ As mentioned earlier, keep an eye out for activities that would work well as prototype functions. Candidates for such conversion can be found both in the sample 3D drawing code and in the current _shapes.js_ utility object (*cough* conversion to WebGL-ready array buffers *cough*).
 
-### Implement Composites/Groups
-Extend your 3D object so that it can handle _composite_ or _group_ objects: that is, allow your 3D objects to have children, each of which is also a 3D object. Your implementation should allow for arbitrary depth, and of course the drawing code should be able to handle this without a problem. Yes, you are implementing a tree. And now you know why the data structures course is a prerequisite to this one.
-
 ### Define a Polygon Mesh Class
 Design and implement a JavaScript class for representing a _polygon mesh_. As covered in class, a polygon mesh is a level up from a base 3D object, capturing a polyhedron’s geometry in a more compact way that lends itself for conversion into vertex arrays for different modes (particularly `GL_LINES` and `GL_TRIANGLES`). Again, you may use the ad hoc polygon mesh from the sample code as a basis for your class, but the design specifics are up to you.
 
@@ -54,7 +51,6 @@ Note that we are now back to writing code that can be feasibly unit-tested. Thus
 
 - A 3D object class
   * Vertices must be relative to a local origin
-  * Support for composite shapes (i.e., allow shape objects to “contain” other shape objects)
   * Unit test suite
 - A polygon mesh class
   * Function(s) that “convert” a polygon mesh into the lower-level 3D object
