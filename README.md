@@ -7,8 +7,8 @@ This repository hosts a public copy of the assignment write-ups for this course 
 - [Assignment 0201](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/parameterized-sprite-library.md) Parameterized sprite library
 - [Assignment 0222](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/animated-tweened-scene.md) Animated, tweened scene implementation
 - [Assignment 0313](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/primitives-and-filters.md) Pixel-level primitives and filters
-- Static scene based on polygon mesh library
-- Matrix library with test suite
+- [Assignment 0407a](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/static-3d-scene.md) Static scene based on polygon mesh library
+- [Assignment 0407b](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/matrix-library.md) Matrix library with test suite
 - Clipping & hidden surface removal algorithms
 - Lights, camera…
 - Action! (animated, interactive 3D scene)
