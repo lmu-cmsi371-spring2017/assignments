@@ -9,6 +9,12 @@ So, to take advantage of this unique opportunity, 15 extra credit points will be
 Visit the exhibit anytime between now and April 16 (try to go in a group—saves parking if you’re driving, and the more the merrier of course [and if you’re taking the Metro, that’s more fun in a group too]). Take in the computer graphics goodness. And submit the following:
 
 - Picture(s) showing that you were there
-- Pick one of the exhibits and write a one-page summary about how it relates to something from the 3D portion of the class (you might not be able to write one right away because we are early into the material, so you might want to take pictures of the exhibits you like and relate it to the class later—this isn’t due until more than a week after the exhibit closes, anyway)
+- Pick one of the exhibits and write a one-page summary about how it relates to something from the 3D portion of the course
 
-Push your files to this repository by the due date, and up to 15 points can be added to your final total for the semester. For the one-page writeup, any readable format will do, but because you’re in GitHub, Markdown is probably the most convenient format to use, but for yourself and for reading/grading.
+For the one-page writeup, you might not be able to write one right away because of where we are in the material. Consider taking pictures of the exhibits you like and relate it to the class later—this isn’t due until more than a week after the exhibit closes, anyway.
+
+If you aren’t really sure about how points of interest might tie in to the class, just ask me.
+
+Any readable format will do for the writeup, but because you’re in GitHub, Markdown is probably the most convenient format to use, with its straightforward syntax and ability to link to the very same images that you’ve pushed to the repository.
+
+Push your files to this repository by the due date, and up to 15 points can be added to your final total for the semester.
