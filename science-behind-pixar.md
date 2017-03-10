@@ -1,6 +1,6 @@
 **CMSI 371** Computer Graphics, Spring 2017
 
-# Assignment 0424
+# Assignment 0424 (extra credit)
 What a great semester to be in CMSI 371! As it turns out, the [Science Behind Pixar](https://californiasciencecenter.org/exhibits/the-science-behind-pixar-exhibition) exhibit at the [California Science Center](https://californiasciencecenter.org) (open until April 16) is in fact a _Computer Science_ Behind Pixar presentation, and the computer science behind Pixar is, not surprisingly, almost entirely computer _graphics_.
 
 So, to take advantage of this unique opportunity, 15 extra credit points will be given to students who are able to visit this. Take note that it closes on April 16, 2017.
