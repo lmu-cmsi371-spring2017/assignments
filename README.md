@@ -10,6 +10,6 @@ This repository hosts a public copy of the assignment write-ups for this course 
 - [Assignment 0407a](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/static-3d-scene.md) Static scene based on polygon mesh library
 - [Assignment 0407b](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/matrix-library.md) Matrix library with test suite
 - [Assignment 0424](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/science-behind-pixar.md) (extra credit) [The Science Behind Pixar](https://californiasciencecenter.org/exhibits/the-science-behind-pixar-exhibition) exhibit
-- Clipping & hidden surface removal algorithms
+- Clipping & hidden surface removal algorithms —_attend the 0425 class_
 - [Assignment 0502a](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/lights-camera.md) Lights, camera…
 - [Assignment 0502b](https://github.com/lmu-cmsi371-spring2017/assignments/blob/master/action.md) Action! (animated, interactive 3D scene)
